@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2? family= Kanit:ital,wght@0,300;0,600;0,800;1,100 & family= Nunito:wght@200;300;400;500; 600;700;800;900 & family= Ubuntu:wght@300;400;700 & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+::selection{
+    background-color: gray;
+    color: gold;
+    }
+header{
+    background-color: aquamarine;
+    display: flex;
+    gap: 15px;
+    grid-gap: 15px;
+}
+.logo{
+    width: 100px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    grid-gap: 10px;
+ 
+}
+.menu_item a{
+   padding: 15px;
+    background-color: chartreuse;
+    color: rgb(201, 22, 22);
+    text-decoration: none;
+    border: 2px solid rgba(255, 255, 0, 0);
+    transition: background 1s, color 2s;
+}
+/*>______________________________Pseudoclases_____________________________*/
+.menu_item:first-child a{
+    background-color: black;
+    border: 2px solid black; 
+}
+.menu_item:last-child a{
+    background-color: black;
+    border: 2px solid black;
+}
+.menu_item:nth-child(2) a{ 
+    background-color: black;
+    border: 2px solid black;
+}
+.menu_item.active a{
+    text-decoration: underline double magenta;
+}
+/*Empty*/
+.menu_item a:empty{
+    background-color: rgb(255, 0, 0);
+}
+/*NOT*/
+.menu_item a:not(.menu_link){
+    border: 5px solid rgb(255, 255, 255);
+}
+/*Hover*/
+.menu_item:hover a{
+
+    text-decoration: underline double magenta;
+    background-color: rgb(201, 22, 22);
+    color:chartreuse;
+    border: 2px solid yellow;
+}
+
+.principal{
+    background-image: url("./../img/doom-eternal-imagen-i368363-in.jpg");
+   height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: fl ex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline:35cv0px;
+
+}
+.principal h2{
+    color: blue;
+    background-color: rgba(153, 205, 50, 0.212);
+    padding-inline: 150px;
+}
+/*_____________pseudo elementos_________________*/
+.principal h2::first-letter{
+    color: blueviolet;
+    font-size: 34px;
+}
+.principal h2::first-line{
+    background-color: rgba(0, 0, 255, 0.326);
+}
+.principal h2::selection{
+background: gray;    
+color: gold;
+}
+.principal p{
+    color: white;
+    text-align: center;
+}
+.tarjetita
+{
+    background-color: aquamarine;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
+    
+}
+.tarjetitas{
+    display: flex;
+    
+    padding: 60px;
+    gap: 30px;
+    flex: 1;
+}
+.informacion{
+    padding-inline: 20px;
+    background-color: aquamarine ;
+}
+.tarjetita_imagen{
+    max-width: 100%;
+}
+.pie{
+    background-color: aquamarine ;
+    color:  rgb(201, 22, 22); 
+    text-align:  center;
+    
+    display: flex;
+    justify-content: space-around;
+   padding: block 20px; 
+}
+.tarjetitados{
+    display: flex 1,5;
+    background-color: aquamarine ;
+    
+}

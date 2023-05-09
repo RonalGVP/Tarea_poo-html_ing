@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2? family= Kanit:ital,wght@0,300;0,600;0,800;1,100 & family= Nunito:wght@200;300;400;500; 600;700;800;900 & family= Ubuntu:wght@300;400;700 & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+header{
+    background-color: aquamarine;
+    display: flex;
+    gap: 15px;
+    grid-gap: 15px;
+}
+.logo{
+    width: 100px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    grid-gap: 10px;
+ 
+}
+.menu_item a{
+    color: rgb(201, 22, 22);
+    text-decoration: none;
+}
+.menu_item.active a{
+    text-decoration: underline double magenta;
+}
+.menu_item:hover{
+    text-decoration: underline double magenta;
+}
+.principal{
+    background-image: url("./../img/doom-eternal-imagen-i368363-in.jpg");
+   height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: fl ex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline:35cv0px;
+
+}
+.principal h2{
+    color: blue;
+    background-color: rgba(153, 205, 50, 0.212);
+    padding-inline: 150px;
+}
+.principal p{
+    color: white;
+    text-align: center;
+}
+.tarjetita
+{
+    background-color: aquamarine;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
+    
+}
+.tarjetitas{
+    display: flex;
+    
+    padding: 60px;
+    gap: 30px;
+    flex: 1;
+}
+.informacion{
+    padding-inline: 20px;
+    background-color: aquamarine ;
+}
+.tarjetita_imagen{
+    max-width: 100%;
+}
+.pie{
+    background-color: aquamarine ;
+    color:  rgb(201, 22, 22); 
+    text-align:  center;
+    
+    display: flex;
+    justify-content: space-around;
+   padding: block 20px; 
+}
+.tarjetitados{
+    display: flex 1,5;
+    background-color: aquamarine ;
+    
+}

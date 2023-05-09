@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+.menu{
+    color: aqua;
+    padding-block: 10px;
+    position: sticky;
+    top: 0;
+}
+.menu {list-style-type: none;
+        background-color: rgb(192, 248, 229);}
+.item{ display: inline-block;
+        margin-inline: 10px;}     
+.item  a{color: black;
+            text-decoration: none;}   
+.item.active,.item a:hover{
+    text-decoration: underline double magenta;
+}
+main {
+ padding: 50px;
+}
+/* cartas*/
+.carta{
+ 
+    margin-inline: 15px;
+    width: 30%;
+    padding: 10px;
+    background-color: rgba(23, 224, 130, 0.829);
+    border-radius: 15px;
+    display: inline-block;
+    margin-inline: 1.5%;
+    margin-block: 20px;
+   border: 2px double magenta;
+    overflow: auto;
+    position: relative;
+    
+
+}
+.carta_img
+{
+    width: 100%;
+}
+.carta_titulo
+{
+    font-size: 18px;
+}
+.carta_parrafo{
+font-size: 15px;
+}
+.carta_boton{
+background-color:violet;
+border: none;
+margin: 5px;
+padding: 5px;
+border-radius: 15px;
+}
+.carta_titulo,.carta_img,.carta_parrafo{
+    margin-bottom: 10px;
+}
+.carta_logo{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    width: 100px;
+}
+.logo{
+    position: fixed;
+    
+    width: 100px;
+    bottom: 0;
+    right: 0;
+}
